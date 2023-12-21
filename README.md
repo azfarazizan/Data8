@@ -23,17 +23,22 @@ Proposed Solution
 The initial phase involved a meticulous examination of the dataset provided by the client. Data exploratory analysis techniques were employed to identify potential use cases and areas where leveraging voice data could yield significant impact within the hospital context.
 
 2. Audio-to-Text Converter
-Our proposal centers around the development of an audio-to-text converter. This converter will automate the process of transcribing voice recordings into text, enabling seamless access to the information captured in the audio files. Furthermore, it will incorporate translation capabilities to ensure linguistic diversity isn't a barrier, allowing for broader utilization of the dataset.
+Our proposal centers around the development of an audio-to-text converter using OpenAI's Whisper model. This converter will automate the process of transcribing voice recordings into text, enabling seamless access to the information captured in the audio files. Furthermore, it will incorporate translation capabilities via the OpenAI API to ensure linguistic diversity isn't a barrier, allowing for broader utilization of the dataset.
 
 How It Works
 
-The audio-to-text converter operates through the integration of cutting-edge speech recognition and natural language processing technologies. By harnessing these advanced tools, the converter will accurately transcribe spoken words into written text and subsequently translate them into the desired languages, providing a comprehensive and accessible dataset.
+The audio-to-text converter operates through the integration of OpenAI's Whisper model and the OpenAI API. By harnessing these advanced tools, the converter will accurately transcribe spoken words into written text and subsequently translate them into the desired languages, providing a comprehensive and accessible dataset.
 
 Benefits
 
 - Efficiency: Automating the transcription process saves time and resources, enabling quicker analysis of voice data.
 - Accessibility: Textual representation enhances accessibility and ease of use, making the dataset available for various analytical purposes.
 - Multilingual Support: Translation capabilities cater to diverse linguistic needs, ensuring broader applicability across different regions and languages.
+
+Technology Stack
+1. OpenAI Whisper Model: Leveraging OpenAI's state-of-the-art Whisper model for accurate transcription.
+2. OpenAI API Key (Paid): Access to the OpenAI API enables seamless integration of advanced AI capabilities.
+3. Python: Development and implementation of the audio-to-text converter are carried out in Python.
 
 Future Scope
 
